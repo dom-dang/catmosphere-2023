@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Catmosphere- HackMIT</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/cat-icon.ico" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuggles&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuggles&family=Quicksand:wght@300&display=swap"
+        rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body onload="loading()">
+
+    <!-- <audio controls autoplay>
+        <source src="assets/Many Worlds (Instrumental).mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio> -->
+
+    <div class="progress" id="loader">
+        <div class="color"></div>
+    </div>
+
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+        <div class="fullnav">
+            
+            <div>
+                <div class="topnav" id="myTopnav">
+                    <a href="index1.html" class="active">Home</a>
+                    <a href="about-us.html">About Us</a>
+                </div>
+            </div>
+
+            <div class="logo_center" id="about_logo">
+                <img id="logo" src="css/logo.png">
+            </div>
+            <!-- Page content-->
+            <button id="audio_btn" value="PLAY" onclick="music()"> <img id="sound-photo" src="assets/muted.png">
+                <audio id="music" src="assets/Many Worlds (Instrumental).mp3"></audio>
+            </button>
+            
+        </div>
+        <div class="game" width="810" height="640">
+            <iframe id='webgl_iframe' frameborder="0" allow="autoplay; fullscreen; vr" allowfullscreen="" allowvr=""
+                mozallowfullscreen="true"
+                src="https://play.unity.com/webgl/857ed72b-48cb-484c-b44a-c3a7456931a1?screenshot=false&embedType=embed" width="810"
+                height="640"  onmousewheel="" webkitallowfullscreen="true"></iframe>
+        </div>
+            
+
+                
+            
+            
+       
+    </div>
+
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+</body>
+<footer>
+    <p>Created during HackMIT 2023</p>
+</footer>
+</html>
