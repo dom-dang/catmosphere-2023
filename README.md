@@ -12,4 +12,4 @@ for hackmit 2023, we wanted to make a game with (1) cats and (2) cool art. inspi
 - nigel norman
 - dominique dang
 
-check it out! [link] (https://catmosphere-2023.vercel.app/index.html)
+check it out! [link](https://catmosphere-2023.vercel.app/index.html)
