@@ -6,10 +6,12 @@ for hackmit 2023, we wanted to make a game with (1) cats and (2) cool art. inspi
 
 **what's next for Catmosphere**: adding more levels, a restart button, & a new soundtrack and artwork
 
+**UPDATE: Catmosphere won best hack for the beginner track at HackMIT 2023!
+
 **designed by first years at MIT: 
 - kenneth chap
 - helena de figueiredo valente
 - nigel norman
 - dominique dang
 
-check it out! [link](https://catmosphere-2023.vercel.app/index.html)
+check it out! [link to website & game](https://catmosphere-2023.vercel.app/index.html)
